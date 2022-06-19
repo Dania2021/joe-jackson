@@ -7,7 +7,7 @@
     <meta name="description" content="Joe Jackson is a homemade gelato icecream shop in Letterkenny, Donegal, Ireland ">
     <meta name="keywords" content="icecream, milkshakes, sundae, icecream cake">
     <meta name="author" content="Joe Jackson's Ice Cream">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- Brower Tab Title-->
@@ -15,9 +15,10 @@
 </head>
 <body>
     <header>
-        <nav class="navbar">
+        <!-- Navbar-
+        <nav class="my-navbar">
             <a href="index.html" id="logo">
-             <img src="assets/images/joe-logo.jpg"  alt="An ice cream cone with a sea view" width="100" height="100" class="home-logo">
+             <img src="assets/images/joe-logo.jpg"  alt="An ice cream cone with a sea view" class="home-logo">
              <span>Joe Jacksons Ice Cream</span>
             </a>  
 <div>
@@ -30,20 +31,95 @@
     </ul>
 </div>        
 </nav>
-</header>
-<section>
+
+
+    -->
+
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a href="index.html" class="navbar-band">
+          <img src="assets/images/joe-logo.jpg"  alt="An ice cream cone with a sea view" class="home-logo">
+          <span>Joe Jacksons Ice Cream</span>
+         </a>  
+        
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav menu my-2 my-lg-0 navbar-nav-scroll">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Icecream</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Explore</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+  </header>
+  
+  <section>
     <main class="hero-image hero-title">
+  
+        <!-- Page Title-->
+         
         <h1>Joe Jacksons Ice Cream</h1>
-        <div class="img-container">
-        <img src="assets/images/hero-image.jpg" alt="Vanilla and chocolate scoop in a cone with some nuts topping holding in hand">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+            
+<!---Carousel code sourced from Bootstap-->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="assets/images/hero-image.jpg" class="d-block w-100" alt="Vanilla and chocolate scoop in a cone with some nuts topping holding in hand">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="assets/images/ice-cream-scoop.jpg" class="d-block w-100" alt="Bubble gum, vanilla and strawberry scoops in a cone with sprinkles and holding in a hand">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/ice-cream-pic3.JPG" class="d-block w-100" alt="Stwaberry and vanilla scoops in cup with rainbow sprinkles and two cones on the floor">
+              </div>
+            </div>
+            <a class="carousel-control-prev" role="button" href="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
     </main>
 </section>
-<section><div>Scoop range</div></section>
+<section><div class="scoop">
+<h2>Scoop Range</h2>
+<p>There is a flavour for everyone</p>
+</div>
+<div></div></section>
 <section><div> your own Sundae</div></section>
 <section><div>About</div></section>
 <footer>
         Address and information, copyright and social links
     </footer>
+
+    <!--  Bootstrap JS script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -16,6 +16,8 @@ body {
 
 /*Style navbar image in circle*/
 .home-logo {
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
 }
 
@@ -26,7 +28,7 @@ h1, h2 {
     color: #2E1503;
 }
 
-#logo {
+/* .navbar-band { 
     position: absolute;
     left: 30px;
     text-decoration: none;
@@ -34,42 +36,43 @@ h1, h2 {
     font-family: Montserrat, sans-serif;
     font-weight: 600;
     font-size: xx-large;
-     color: #2E1503;    
+     color: #2E1503;    */
 }
 
 /* Navigation Links */
 
-#menu {
+/*.navbar-nav {
     font-size: 110%;
     letter-spacing: 2px;
     text-align: right;
     margin-right: 20px;    
 }
 
-#menu, #logo {
+.navbar-nav, .navbar-band {
     line-height: 85px;
 }
-#menu li {
-    display: inline-block;
+.nav-link {
+
     list-style-type: none;
     margin-right: 2px;
 }
 
-#menu a {
+.nav-link {
     text-decoration: none;
     color: inherit;
-}
+}*/
 
-#menu a:hover {
+.nav-link:hover {
 border-bottom: 1px solid #fff;
 color: #fff;
 }
 
-.navbar {
+/*.navbar {
     text-align: center;
-   padding: 10px 0 25px 0;
+   padding: 16px 0 16px 0;
     background-color: rgba(240, 112, 112);
-}
+    
+}*/
 
 
 /* Styling images*/
@@ -84,7 +87,7 @@ img {
         }
 
 .img-container {
-   margin: 30px;
+    margin: 30px;
 }
 
 /*Style title*/
@@ -94,4 +97,13 @@ img {
     font-size: 3rem;
     text-align: center;
     margin: 30px 0 30px 0;
+}
+
+/*Carousel*/
+
+@media only screen and (min-width: 1024px) {
+    .carousel-item img {
+        height: 600px;
+        object-fit: contain;
+    }
 }
