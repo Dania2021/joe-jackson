@@ -8,7 +8,6 @@
 
 body {
     font-family: Nota Serif, sans-serif;
-    /* font-weight: 200; */
     color: #65350F;
     background-color: rgb(255, 253, 208);
     
@@ -19,13 +18,12 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-
+margin-left: 30px;
 }
 
 /* Headings*/
 h1, h2 {
     font-family: Montserrat, sans-serif;
-    /* font-weight: 900; */
     letter-spacing: 2px;
     color: #2E1503;
 }
@@ -34,20 +32,21 @@ h1, h2 {
 
 .navbar-nav {
     font-size: 110%;
+    font-weight: 300;
     letter-spacing: 2px;
-    padding-left: 25rem;
-     margin-right: 15px;     
+     
 }
 
 .navbar-band { 
     text-decoration: none;
     font-family: Montserrat, sans-serif;
     font-weight: 600;
-    font-size:  x-large;
+    font-size:  200%;
      color: #2E1503;    
-     margin-left: 30px;
+     padding-top: 6px;
+     /* margin-left: 30px; */
+}
 
-    }
 
 .navbar-band:hover {
     color: #2E1503;
@@ -58,7 +57,7 @@ h1, h2 {
 
 .nav-link {
 list-style-type: none;
-    margin-left: 25px;
+    margin-left: 20px;
     text-decoration: none;
     color: inherit;
 }
@@ -66,6 +65,10 @@ list-style-type: none;
 .nav-link:hover {
 border-bottom: 1px solid #fff;
 color: #fff;
+}
+
+.nav-item {
+    margin-right: 20px;
 }
 
 .navbar {
@@ -96,6 +99,11 @@ img {
 
 /*Carousel*/
 
+.carousel-inner > .carousel-item > img {
+width: 640px;
+    height: 500px;
+}
+
 @media only screen and (min-width: 1024px) {
     .carousel-item img {
         height: 600px;
@@ -105,18 +113,8 @@ img {
 
 /* Column images*/
 .column-image img {
-   max-width: 100%;
-    max-height: 100%;
-}
-
-.right-text {
-    text-align: right;
-
-}
-
-.scoop-range {
-    font-size: 200%;
-    font-weight: 300;
+   width: 440px;
+    height: 500px;
 }
 
 
@@ -137,13 +135,28 @@ img {
     background-color: #fff;
     color: #2E1503;
 }
-.scoop-section-bg-color {
-    background-color: #FFE6EE;
-}
 
+/*Scoop range style*/
 .title {
     font-size: 300%;
     font-weight: 600;
     padding-top: 30px;
     
+}
+
+.scoop-range {
+    font-size: 200%;
+    font-weight: 300;
+}
+
+.right-text {
+    text-align: right;
+}
+
+.scoop-section-bg-color {
+    background-color: #FFE6EE;
+}
+
+.setwidth {
+    width: 400px;
 }
