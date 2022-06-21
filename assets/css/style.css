@@ -108,9 +108,6 @@ img {
    max-width: 100%;
     max-height: 100%;
 }
-.column-image {
-    /* padding: 0 20px 0 20px; */
-}
 
 .right-text {
     text-align: right;
@@ -122,14 +119,24 @@ img {
     font-weight: 300;
 }
 
+
+/* Button style*/
 .btn-dark i {
     font-size: 12px;
     padding: 0 4px 0 4px;
     margin: 30px;
-    
+    }
+
+.btn-dark {
+    font-size: medium;
+    background-color: #2E1503;
+    color: #fff;
 }
 
-
+.btn-dark:hover {
+    background-color: #fff;
+    color: #2E1503;
+}
 .scoop-section-bg-color {
     background-color: #FFE6EE;
 }
