@@ -44,7 +44,7 @@ h1, h2 {
     font-size:  200%;
      color: #2E1503;    
      padding-top: 6px;
-     /* margin-left: 30px; */
+    
 }
 
 
@@ -118,8 +118,6 @@ max-height: 100%;
     /* padding-bottom: 0; */
     padding-left: 25px;
     padding-right: 25px;
-    /* position: relative; */
-    
 }
 
 .column-image .caption {
@@ -130,13 +128,13 @@ max-height: 100%;
 .row {
 padding-top: 30px;
 padding-bottom: 30px;
+
 }
 
 /* Button style*/
 .btn-dark i {
     font-size: 12px;
     padding: 0 4px 0 4px;
-    /* margin: 30px; */
     }
 
 .btn-dark {
@@ -173,23 +171,17 @@ padding-bottom: 30px;
 }
 
 .left-text {
-    text-align: left;
-    margin-right: 25px;
-     position: absolute; 
-    /* padding-bottom: 30px; */
-    
+    padding-top: 25px;
+
 }
 .scoop-section-bg-color {
     background-color: #ffE6EE;
 }
 
-.sundae-section-bg-color {
+.sundae-section {
+    /* padding-left: 30px; */
     width: 100%;
-    padding-right: 20px;
-    padding-left: 20px;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: #fff;
+    /* padding-bottom: 30px; */
 }
 
 /*To set images of same size*/
@@ -199,6 +191,8 @@ padding-bottom: 30px;
     height: 300px;
 }
 
-.img-right {
-    float: right;
+/*footer*/
+
+.bg-color {
+    background-color: rgba(240, 112, 112);
 }
