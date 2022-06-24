@@ -10,7 +10,7 @@ body {
     font-family: Nota Serif, sans-serif;
     color: #65350F;
     background-color: rgb(255, 253, 208);
-    
+    text-align: center;
 }
 
 /*Style navbar image in circle*/
@@ -51,15 +51,8 @@ h1, h2 {
 .navbar-band:hover {
     color: #2E1503;
 }
-.navbar-nav, .navbar-link .navbar-light {
+.navbar-nav, .nav-link, .navbar-light {
     color: #2E1503;    
-}
-
-.nav-link {
-list-style-type: none;
-    margin-left: 20px;
-    text-decoration: none;
-    color: inherit;
 }
 
 .nav-link:hover {
@@ -68,6 +61,10 @@ color: #fff;
 }
 
 .nav-item {
+    list-style-type: none;
+    margin-left: 20px;
+    text-decoration: none;
+    color: inherit;
     margin-right: 20px;
 }
 
@@ -250,7 +247,7 @@ footer > p {
 
 /*Style small screen sizes from 425px wide and down*/
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 445px) {
     .footer-logo {
         width: 100%;
         text-align: center;
@@ -267,6 +264,35 @@ footer > p {
     .copyright {
         width: 100%;
         text-align: center;
-        margin: 90px 0;
+        margin: 100px 0;
     }
+}
+
+
+/* Icecream Page*/
+/*Style Heading and sub-menu*/
+
+.nav-menu a {
+text-decoration: none;
+color: #65350F;
+font-weight: 200;
+font-size: 120%;
+margin-left: 30px;
+padding-right: 10px;
+}
+
+.nav-menu a:hover {
+    
+    border-bottom: 1px solid #2E1503;
+    
+}
+
+.ice-section {
+    justify-content: center;
+    /* width: 100; */
+    /* height: 100; */
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 120%;
+    font-weight: 200;
 }
