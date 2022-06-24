@@ -22,7 +22,7 @@ margin-left: 30px;
 }
 
 /* Headings*/
-h1, h2 {
+h1, h2, h3 {
     font-family: Montserrat, sans-serif;
     letter-spacing: 2px;
     color: #2E1503;
@@ -177,9 +177,12 @@ padding-bottom: 30px;
 }
 
 .sundae-section {
-    /* padding-left: 30px; */
     width: 100%;
-    /* padding-bottom: 30px; */
+    padding-left: 16px;
+    padding-right: 16px;
+   margin-right: auto;
+   margin-left: auto; 
+    
 }
 
 /*To set images of same size*/
@@ -296,6 +299,4 @@ padding-right: 30px;
     font-weight: 200;
 }
 
-#icecream-section {
-    /* background-color: #ffE6EE; */
-}
+/*Style scoop section*/
