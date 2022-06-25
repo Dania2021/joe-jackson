@@ -88,7 +88,7 @@ img {
 /*Style title*/
 
 .hero-title {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 300%;
     text-align: center;
     margin: 30px 0 30px 0;
@@ -149,7 +149,7 @@ padding-bottom: 30px;
 
 .title {
     font-size: 300%;
-    font-weight: 700;
+    font-weight: 600;
     padding-top: 30px;
     /* padding-right: 30px; */
     
@@ -301,7 +301,12 @@ padding-right: 30px;
 }
 
 /*Style scoop section*/
-h3 {
-    font-size: 200;
-    font-weight: 200%;
+.sub-title {
+    font-size: 200%;
+    font-weight: 600;
+}
+
+.sub-section {
+    font-size: 120%;
+    font-weight: 200;
 }
