@@ -311,3 +311,7 @@ padding-right: 30px;
     color: #2E1503;
 }
 
+/*Style contact page*/
+th, td {
+    border-bottom: 1px solid #2E1503;
+}
