@@ -287,10 +287,8 @@ padding-right: 30px;
 }
 
 .nav-menu a:hover {
-    
     border-bottom: 1px solid #2E1503;
-    
-}
+    }
 
 .ice-section {
     text-align: justify;
@@ -300,7 +298,7 @@ padding-right: 30px;
     font-weight: 200;
 }
 
-/*Style scoop section*/
+/*Style scoop section and ice cream cake section*/
 .sub-title {
     font-size: 200%;
     font-weight: 600;
@@ -309,4 +307,17 @@ padding-right: 30px;
 .sub-section {
     font-size: 120%;
     font-weight: 200;
+}
+
+/*Style Back to top anchor*/
+#back-to-top {
+    background-color: #2E1503;
+    color: #fff;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+#back-to-top:hover {
+    background-color: #fff;
+    color: #2E1503;
 }
