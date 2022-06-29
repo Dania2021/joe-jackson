@@ -329,3 +329,8 @@ th, td {
 .center-text {
     padding-top: 25px;
 }
+
+.set-width-img {
+    width: 600px;
+    height: 600px;
+}
