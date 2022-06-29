@@ -330,7 +330,18 @@ th, td {
     padding-top: 25px;
 }
 
+/*Explore Page*/
+/*Large image in sundae bar, milkshake bar and chocolate bar shake*/
+
 .set-width-img {
     width: 600px;
     height: 600px;
+}
+
+/*adding more padding to section of explore page*/
+.sundae-section {
+    padding-top: 20px;
+    padding-bottom: 0;
+    padding-left: 25px;
+    padding-right: 25px;
 }
