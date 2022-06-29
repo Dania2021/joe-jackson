@@ -312,6 +312,20 @@ padding-right: 30px;
 }
 
 /*Style contact page*/
+/*table*/
+
 th, td {
     border-bottom: 1px solid #2E1503;
+}
+
+/* Style Sign up form*/
+.signup-form {
+
+    color: #2E1503;
+    background-color: #ffE6EE;
+
+}
+
+.center-text {
+    padding-top: 25px;
 }
