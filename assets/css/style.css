@@ -111,10 +111,14 @@ max-height: 100%;
 }
 
 .column-image  {
-    padding-top: 20px;
+    padding-top: 0;
     padding-bottom: 0;
     padding-left: 25px;
     padding-right: 25px;
+}
+
+.column-image .caption {
+    padding-top: 16px;
 }
 
 .row {
@@ -167,12 +171,12 @@ padding-bottom: 30px;
     background-color: #ffE6EE;
 }
 
-.sundae-section {
+.left-section {
     width: 100%;
     padding-left: 16px;
     padding-right: 16px;
    margin-right: auto;
-   margin-left: auto; 
+   margin-left: auto;; 
     
 }
 
@@ -197,6 +201,7 @@ footer {
     position: absolute;
     margin: 75px 30px 0;
     color: #2E1503;
+    text-align: left;
 }
 
 footer > p {
@@ -272,7 +277,7 @@ color: #65350F;
 font-weight: 200;
 font-size: 120%;
 margin-left: 30px;
-padding-right: 30px;
+padding-right: 15px;
 }
 
 .nav-menu a:hover {
@@ -338,10 +343,3 @@ th, td {
     height: 500px;
 }
 
-/*adding more padding to section of explore page*/
-.sundae-section {
-    padding-top: 20px;
-    padding-bottom: 0;
-    padding-left: 25px;
-    padding-right: 25px;
-}
