@@ -111,7 +111,7 @@ max-height: 100%;
 }
 
 .column-image  {
-    padding-top: 0;
+    padding-top: 20px;
     padding-bottom: 0;
     padding-left: 25px;
     padding-right: 25px;
@@ -151,11 +151,6 @@ padding-bottom: 30px;
     padding-top: 30px;
 }
 
-.scoop-range {
-    /* font-size: 200%; */
-    /* font-weight: 300; */
-}
-
 .right-text {
     text-align: right;
     padding-top: 25px;
@@ -181,7 +176,7 @@ padding-bottom: 30px;
 }
 
 /*To set images of same size*/
-
+/*on index page and icecream page*/
 .set-width {
     width: 400px;
     height: 400px;
@@ -333,6 +328,16 @@ th, td {
 
 .center-text {
     padding-top: 25px;
+}
+
+/*iframe map id and css originally from code institute project*/
+#map-wrapper {
+    height: 400px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
 }
 
 /*Explore Page*/
