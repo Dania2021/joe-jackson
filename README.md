@@ -5,3 +5,47 @@ Joe Jacksons Ice cream is located in Letterkenny, co Donegal. Joe Jackson Ice Cr
 The website is designed to be responsive so that it is user-friendly and looks appealing on any device.
 
 Visit the live project [here](https://dania2021.github.io/joe-jackson/)
+
+## Table of Contents
+* User Experience
+  * Project Goals
+  * User Stories
+
+* Design
+  * Colour Scheme
+  * Typography
+  * Imagery
+  * Icons
+  * Wireframes
+
+* Features
+  * General
+  * Landing Page
+  * Icecream Page
+  * Explore Page
+  * Contact Page
+  * Thankyou Page
+  * 404 Page
+
+* Technologies Used
+  * Language Used
+  * Framework, Libraries & Programs Used
+
+* Testing
+  * Testing User Stories
+  * Code Validation
+  * Lighthouse  
+  * Tool Testing
+  * Manual Testing
+
+* Deployment
+  * GitHub Pages
+  * Forking the GitHub Repository
+  * Making a Clone
+
+* Credits
+  * Content
+  * Media
+  * Code
+
+* Acknowledgements
