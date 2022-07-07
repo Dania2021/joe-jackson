@@ -19,8 +19,8 @@ Visit the live project [here](https://dania2021.github.io/joe-jackson/)
   * [Icons](#icons)
   * [Wireframes](#wireframes)
 
-* Features
-  * General
+* [Features](#features)
+  * [General](#general)
   * Landing Page
   * Icecream Page
   * Explore Page
@@ -103,3 +103,15 @@ Wireframes were created for desktop, tablet and mobile.
 [Explore Wireframe](/assets/readme-files/wireframes/wireframe-explore.png)
 
 [Contact Wireframe](/assets/readme-files/wireframes/wireframe-contact.png)
+
+## Features
+
+The website is comprised of five pages, four of which are accessible from the navigation menu (home page, icecream page, explore page and contact page). The fifth page is a thank you page which is shown once a user submits the form on the contact us page.
+
+### General
+  All Pages on the website have:
+
+  * A responsive navigation bar at the top which allows the user to navigate through the site. To the left of the navigation bar is an image of joe jacksons logo together with the text Joe Jacksons Ice Cream. To the right of the navigation bar are the links to the websites pages (home, icecream, explore and contact). To allow a good user experience of the site, Joe Jacksons Ice Cream text is hidden with a media query on mobile devices to prevent the navigation bar looking cluttered. When viewing with mobile devices the navigation links change to a burger toggler. This was implemented to give the site a clean look and to promote a good user experience, as users are used to seeing the burger icon when on mobile devices to navigate a site.
+
+  * A footer which contains address, social media icon links to facebook and instagram and copyright. Icons were used to keep the footer clean and because they are universally recognisable.
+
