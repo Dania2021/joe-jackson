@@ -17,7 +17,7 @@ Visit the live project [here](https://dania2021.github.io/joe-jackson/)
   * [Typography](#typography)
   * [Imagery](#imagery)
   * [Icons](#icons)
-  * Wireframes
+  * [Wireframes](#wireframes)
 
 * Features
   * General
@@ -93,3 +93,13 @@ The images were used with the permission of owner and I have credited these in c
 I used icons from Font Awesome to encourage users to click on buttons and to add clear visual indicators to sections on the Icecream page and Explore page.
 
 ### Wireframes
+
+Wireframes were created for desktop, tablet and mobile.
+
+[Home page Wireframe](/assets/readme-files/wireframes/wireframe-home.png)
+
+[Ice Cream Wireframe](/assets/readme-files/wireframes/wireframe-icecream.png)
+
+[Explore Wireframe](/assets/readme-files/wireframes/wireframe-explore.png)
+
+[Contact Wireframe](/assets/readme-files/wireframes/wireframe-contact.png)
