@@ -11,11 +11,12 @@ Visit the live project [here](https://dania2021.github.io/joe-jackson/)
   * [Project Goals](#project-goals) 
   * [User Stories](#user-stories)
 
-* Design
-  * Colour Scheme
-  * Typography
-  * Imagery
-  * Icons
+
+* [Design](#design)
+  * [Colour Scheme](#colour-scheme)
+  * [Typography](#typography)
+  * [Imagery](#imagery)
+  * [Icons](#icons)
   * Wireframes
 
 * Features
@@ -67,3 +68,28 @@ Visit the live project [here](https://dania2021.github.io/joe-jackson/)
  * As a user allow to sign up to receive updates of new flavours, promotion and news.
  * As a user want to connect various social media sites quickly and easily.
  * As a user to be able to view the site on a range of device sizes.
+
+ ## Design
+
+ ### Colour Scheme
+ ![Colour palette](/assets/readme-files/palette.JPG "Colour palette")
+* A Simple and refined colour schemes are used.
+* Pale backgrounds are used so that image takes center stage.
+* Header and footer are bright in colour to distinguishes those sections from other on the page.
+* Colour palette was created by using [Coolers](https://coolors.co/).
+
+### Typography
+
+Google Fonts was used for the following fonts:
+* Montserrat is used for headings on the site. It is a serif font.
+* Nota Serif is used for the body text on the site. It is a sans-serif font.
+
+### Imagery
+
+The images were used with the permission of owner and I have credited these in credit section.
+
+### Icons
+
+I used icons from Font Awesome to encourage users to click on buttons and to add clear visual indicators to sections on the Icecream page and Explore page.
+
+### Wireframes
