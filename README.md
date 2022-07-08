@@ -22,8 +22,8 @@ Visit the live project [here](https://dania2021.github.io/joe-jackson/)
 * [Features](#features)
   * [General](#general)
   * [Home Page](#home-page)
-  * Icecream Page
-  * Explore Page
+  * [Icecream Page](#icecream-page)
+  * [Explore Page](#explore-page)
   * Contact Page
   * Thankyou Page
   * 404 Page
@@ -135,3 +135,37 @@ The website is comprised of five pages, four of which are accessible from the na
       ![Screen shot of carousel](/assets/readme-files/section-img.png)
 
       Buttons are consistent in design across the site. Buttons feature a right arrow to encourage them to click and be taken to a new page. Buttons change colour when hovered over. The button text is legible both in its normal and hover state. I have used Bootstrap Button classes, which I have customised in the CSS.
+
+* ### Icecream Page
+
+    * The Icecream and Explore pages features heading and sub-navigation. ID names are used to allow the user to jump to the content. This helps the user to quickly find the section that they are looking for. When hovered on sub-navigation an underline appears underneath the link. This further emphasises that this is a clickable link.Aria-labels are used to make their purpose clear to screen readers.   
+
+    * The first section of Icecream page is scoop section. This section is comprised of listing of scoop and splits into eighteen different variety of scoop. The section uses the same reusable CSS classes from the previous pages to make the information styling consistent with previous pages.   
+
+
+    ![Screen shot of Icecream Page with heading, sub-navigation and scoop](/assets/readme-files/icecream-img.png)
+
+
+    * The next section is Icecream Cakes, features information about icecream cakes. This section is comprised of listing of cakes and describes two types of icecream cakes.
+
+
+    ![Screen shot of Icecream Page with Ice cream cake](/assets/readme-files/icecream-cake-img.png)
+
+  
+    * Back to top button appears at the bottom of the Icecream and Explore page and saves the user needing to scroll back up to the top of page. The button features an 'up' arrow, to make it clear that it will quickly send users back to the top of the page.
+
+
+* ### Explore Page
+
+   This page provides information about Sundae Bar, Millkshake Bar And Chocolate Bar Shake. The section uses the same reusable CSS classes from the previous pages to make the information styling consistent with previous pages, but size of images are different from the previous page.   
+
+
+    ![Screen shot of Explore Page with Sundae Bar](/assets/readme-files/explore-img.png)
+
+
+* ### Contact Page
+
+   This page provides information about opening times, address, get in touch and a map. This page also provides Newsletter that have a sign up form to submit.Tha map section is originally sourced from Coders Coffee House Project.
+
+
+    ![Screen shot of Contact Page with Sign up form](/assets/readme-files/contact-img.png)
