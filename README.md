@@ -6,6 +6,8 @@ The website is designed to be responsive so that it is user-friendly and looks a
 
 Visit the live project [here](https://dania2021.github.io/joe-jackson/)
 
+Find the Project Repository [here](https://github.com/Dania2021/joe-jackson)
+
 ## Table of Contents
 * [User Experience](#user-experience)
   * [Project Goals](#project-goals) 
@@ -24,12 +26,12 @@ Visit the live project [here](https://dania2021.github.io/joe-jackson/)
   * [Home Page](#home-page)
   * [Icecream Page](#icecream-page)
   * [Explore Page](#explore-page)
-  * Contact Page
-  * Thankyou Page
-  * 404 Page
+  * [Contact Page](#contact-page)
+  * [Thankyou Page](#thankyou-page)
+  * [404 Page](#404-page)
 
-* Technologies Used
-  * Language Used
+* [Technologies Used](#technologies-used)
+  * [Language Used](#)
   * Framework, Libraries & Programs Used
 
 * Testing
@@ -169,3 +171,37 @@ The website is comprised of five pages, four of which are accessible from the na
 
 
     ![Screen shot of Contact Page with Sign up form](/assets/readme-files/contact-img.png)
+
+
+* ### Thankyou Page
+
+  An image and message thanks the user for submitting the form and lets them know someone will be in touch soon.
+
+
+* ### 404 Page 
+
+
+## Technologies Used
+
+
+   * ### Framework, Libraries & Programs Used
+
+     Balsamiq - Used to create wireframes.
+
+     Font awesome - Used icons from font awesome to visually distinguish sections of the text and on buttons.
+
+     Google Fonts - To import the fonts used on website.
+
+     Git - Used for version control.
+
+     Github - Used to save and store the files for website.
+
+     Bootstrap Version 5.0 - Sourced code from the Bootstrap documentation when building the Navbar, Carousel, Sections, Buttons and Contact Form were used and modified.
+
+     Google Dev Tools - Used while building the project to test responsiveness and for debugging.
+
+     [Birme](https://www.birme.net/?target_width=900&target_height=900&image_format=webp)  To change to webp format and resize images.
+
+     [Favicon](https://favicon.io/)  To create favicon.
+
+     [Am I Responsive](https://ui.dev/amiresponsive?)  To show the website image on a range of devices
