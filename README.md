@@ -21,7 +21,7 @@ Visit the live project [here](https://dania2021.github.io/joe-jackson/)
 
 * [Features](#features)
   * [General](#general)
-  * Landing Page
+  * [Home Page](#home-page)
   * Icecream Page
   * Explore Page
   * Contact Page
@@ -108,10 +108,30 @@ Wireframes were created for desktop, tablet and mobile.
 
 The website is comprised of five pages, four of which are accessible from the navigation menu (home page, icecream page, explore page and contact page). The fifth page is a thank you page which is shown once a user submits the form on the contact us page.
 
-### General
+* ### General
   All Pages on the website have:
 
   * A responsive navigation bar at the top which allows the user to navigate through the site. To the left of the navigation bar is an image of joe jacksons logo together with the text Joe Jacksons Ice Cream. To the right of the navigation bar are the links to the websites pages (home, icecream, explore and contact). To allow a good user experience of the site, Joe Jacksons Ice Cream text is hidden with a media query on mobile devices to prevent the navigation bar looking cluttered. When viewing with mobile devices the navigation links change to a burger toggler. This was implemented to give the site a clean look and to promote a good user experience, as users are used to seeing the burger icon when on mobile devices to navigate a site.
 
-  * A footer which contains address, social media icon links to facebook and instagram and copyright. Icons were used to keep the footer clean and because they are universally recognisable.
+  ![Screen shot of navbar](/assets/readme-files/navbar-img.JPG)
 
+ 
+  * A footer which contains address of Joe Jackson Ice cream, social media icon links to facebook and instagram. Social media links open to new page and icons were used to keep the footer clean and because they are universally recognisable.
+  
+  ![Screen shot of footer](/assets/readme-files/footer-img.JPG)
+
+* ### Home Page
+
+    * Carousel Section: The carousel shows images of ice cream.
+
+     ![Screen shot of carousel](/assets/readme-files/carousel-img.png)
+
+    * Scoop Range Section: This section feature button with 'call to actions' that quickly directing user to relevant information on ice cream page.
+
+    * Sundae Bar Section: This section feature button with 'call to actions' that quickly directing user to relevant information on explore page.
+
+    * Contact Section: This section feature  button with 'call to actions' that quickly directing user to relevant information on contact page.
+
+      ![Screen shot of carousel](/assets/readme-files/section-img.png)
+
+      Buttons are consistent in design across the site. Buttons feature a right arrow to encourage them to click and be taken to a new page. Buttons change colour when hovered over. The button text is legible both in its normal and hover state. I have used Bootstrap Button classes, which I have customised in the CSS.
