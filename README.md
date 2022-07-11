@@ -31,27 +31,27 @@ Find the Project Repository [here](https://github.com/Dania2021/joe-jackson)
   * [404 Page](#404-page)
 
 * [Technologies Used](#technologies-used)
-  * [Language Used](#)
-  * Framework, Libraries & Programs Used
+  * [Language Used](#languages-used)
+  * [Framework, Libraries & Programs Used](#framework-libraries--programs-used)
 
-* Testing
+* [Testing](#testing)
   * Testing User Stories
   * Code Validation
   * Lighthouse  
   * Tool Testing
   * Manual Testing
 
-* Deployment
-  * GitHub Pages
-  * Forking the GitHub Repository
-  * Making a Clone
+* [Deployment](#deployment)
+  * [Project Deploymant via GitHub Pages](#project-deloyment-via-github-pages)
+  * [How to Fork](#how-to-fork)
+  * [How to Clone](#how-to-clone)
 
-* Credits
-  * Content
-  * Media
-  * Code
+* [Credits](#credits)
+  * [Code](#code)
+  * [Content](#content)
+  * [Media](#media)
 
-* Acknowledgements
+* [Acknowledgements](#acknowledgements)
 
 
 ## User Experience (UX)
@@ -190,6 +190,9 @@ The website is comprised of five pages, four of which are accessible from the na
 
 ## Technologies Used
 
+   * ### Languages Used
+
+     HTML and CSS were used to create this website.
 
    * ### Framework, Libraries & Programs Used
 
@@ -203,7 +206,7 @@ The website is comprised of five pages, four of which are accessible from the na
 
      Github - Used to save and store the files for website.
 
-     Bootstrap Version 5.0 - Sourced code from the Bootstrap documentation when building the Navbar, Carousel, Sections, Buttons and Contact Form were used and modified.
+     [Bootstrap Version 5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - Sourced code from the Bootstrap documentation when building the Navbar, Carousel, Sections, Buttons and Contact Form were used and modified.
 
      Google Dev Tools - Used while building the project to test responsiveness and for debugging.
 
@@ -211,4 +214,71 @@ The website is comprised of five pages, four of which are accessible from the na
 
      [Favicon](https://favicon.io/)  To create favicon.
 
-     [Am I Responsive](https://ui.dev/amiresponsive?)  To show the website image on a range of devices
+     [Am I Responsive](https://ui.dev/amiresponsive?)  To show the website image on a range of devices.
+
+
+## Testing 
+
+  * ### Testing User Stories
+
+     
+
+
+## Deployment
+
+  * ### Project Deloyment via GitHub Pages
+
+    The Joe-Jackson repository is stored on GitHub. The site was created using GitPod and the live site is hosted on GitHub Pages. This is a guide to deploy a site on GitHub Pages using GitHub.
+
+    1. Log in (or sign up) to Github.
+    2. Find the repository for this project, Joe-Jackson.
+    3. Click on the Settings link.
+    4. Click on the Pages link in the left hand side navigation bar.
+    5. Under source, select branch:main, leave the folder on root and click save.
+    6. Your live Github Pages site is now deployed at the URL shown.
+
+  * ### How to Fork
+
+    To fork the Joe-Jackson repository:
+
+    1. Log in (or sign up) to Github.
+    2. Locate the repository and click to open the repository.
+    3. Click the Fork button in the top right corner.
+
+  * ### How to Clone  
+      
+    To clone the Joe-Jackson repository:
+
+    1. Log in (or sign up) to GitHub.
+    2. Locate the repository and click to open the repository.
+    3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+    4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+    5. Type git clone into the command line and then paste the URL copied from GitHub.
+    6. Press enter and the local repository clone will be created.  
+
+
+* ## Credits
+
+  ### Code
+
+  * [Bootstrap 5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/): Bootstrap library was used throughout the project mainly to make it responsive. I sourced code from the Bootstrap documentation when building the Navbar, Carousel, Sections, Buttons and Contact Form.
+
+  * [Code Institute](https://codeinstitute.net/ie/): I referred to source code from Code Institute's Web Application Development course. I referred to the Coders Coffee House Project code for the google maps iframe.
+
+  ### Content
+   
+   All the content and information was collated from [Joe Jackson Ice Cream Facebook Page](https://www.facebook.com/joejacksonsletterkenny/)
+
+   ### Media
+
+  * Carousel image on the index page of slide 2, Scoop Range image on index page, Mango Ice Cream on Icecream page and image on Thankyou page are from [Pexels](https://www.pexels.com/).
+
+  * Other than that all the images were used from [Joe Jackson Ice Cream Facebook Page](https://www.facebook.com/joejacksonsletterkenny/).
+
+
+* ## Acknowledgements  
+
+  
+
+  
+   
