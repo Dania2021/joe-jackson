@@ -178,10 +178,14 @@ The website is comprised of five pages, four of which are accessible from the na
   An image and message thanks the user for submitting the form and lets them know someone will be in touch soon.
 
 
-    ![Screen shot of Thankyou Page ](/assets/readme-files/thankyou-img.png)
+    ![Screen shot of Thankyou Page](/assets/readme-files/thankyou-img.png)
 
 
 * ### 404 Page 
+
+
+     ![Screen shot of 404 page](/assets/readme-files/404-img.png)
+
 
 
 ## Technologies Used
