@@ -47,7 +47,6 @@ h1, h2, h3 {
     
 }
 
-
 .navbar-band:hover {
     color: #2E1503;
 }
@@ -73,20 +72,15 @@ color: #fff;
 width: 100%;
 }
 
-
 /* Styling images*/
-
 img {
     vertical-align: middle;
 }
-
-
 .img-container {
     margin: 30px;
 }
 
-/*Style title*/
-
+/*Style hero title*/
 .hero-title {
     font-weight: 600;
     font-size: 300%;
@@ -94,15 +88,14 @@ img {
     margin: 30px 0 30px 0;
 }
 
-/*Carousel*/
+/*Style Carousel*/
 @media only screen and (min-width: 1024px) {
         .carousel-item img {
           height: 90vh;
           object-fit: contain;
         }
     }
-/* Column images*/
-
+/*Styling Column images on index, icecream and explore page */
 .column-image img {
 max-width: 100%;
 max-height: 100%;
@@ -118,13 +111,11 @@ max-height: 100%;
 .column-image .caption {
     padding-top: 16px;
 }
-
+/*styling row*/
 .row {
 padding-top: 30px;
 padding-bottom: 30px;
-
 }
-
 /* Button style*/
 .btn-dark i {
     padding: 0 4px 0 4px;
@@ -141,27 +132,21 @@ padding-bottom: 30px;
     color: #2E1503;
 }
 
-/*Scoop range style*/
-
-.title {
-    font-size: 300%;
-    font-weight: 600;
-    padding-top: 30px;
-}
-
+/*Style Scoop range, contact, scoop to the right, icecream cake to the right, sundae bar and chocolate shake bar style*/
 .right-text {
     text-align: right;
     padding-top: 25px;
 }
 
+.scoop-section-bg-color {
+    background-color: #ffE6EE;
+}
+
+/*Style Make your own, scoop to the left, icecream cake to the left and milkshakes*/
 .left-text {
     padding-top: 25px;
     padding-left: 30px;;
     text-align: left;
-}
-
-.scoop-section-bg-color {
-    background-color: #ffE6EE;
 }
 
 .left-section {
@@ -262,7 +247,7 @@ footer > p {
 
 
 /* Icecream Page*/
-/*Style Heading and sub-menu*/
+/*Style Heading and sub-navigation*/
 
 .nav-menu a {
 text-decoration: none;
@@ -285,7 +270,12 @@ padding-right: 15px;
     font-weight: 200;
 }
 
-/*Style scoop section and ice cream cake section*/
+/*Style title and paragraph*/
+.title {
+    font-size: 300%;
+    font-weight: 600;
+    padding-top: 30px;
+}
 .sub-title {
     font-size: 200%;
     font-weight: 600;
