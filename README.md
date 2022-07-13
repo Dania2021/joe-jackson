@@ -336,7 +336,7 @@ The website is comprised of five pages, four of which are accessible from the na
 
       * Devices Compatibility
 
-         I performed the following testing using a number of devices (Samsung Galaxy S8, iPhone 7, Hp Pro 15 inch )
+         I performed the following testing using a number of devices (Samsung Galaxy S8, iPhone 7, Hp Pro 15 inch)
             
 
       * Common Elements Testing
@@ -359,26 +359,26 @@ The website is comprised of five pages, four of which are accessible from the na
 
          * Index Page
 
-               1. On the index page there is a section titled 'Scoop Range' with a button that the user can click to take them to the Icecream page.
+            * On the index page there is a section titled 'Scoop Range' with a button users can click to take them to the Icecream page.
 
-               2. On the index page there is a section titled 'Sundae Bar’ with a button users can click to take them to the Explore page. 
+            * On the index page there is a section titled 'Sundae Bar’ with a button users can click to take them to the Explore page. 
 
-               3. On the index page there is a section titled 'Contact Us’ with a button users can click to take them to the Contact page.
+            * On the index page there is a section titled 'Contact Us’ with a button users can click to take them to the Contact page.
                
 
          * Icecream Page
 
-              1. When user click on the sub-section it will take to their sections.
+            1. When click on the sub-navigation the user move among related section within the same page.
 
-              2. When user click on bottom to top button it will take to top of the page.
+            2. When user click on bottom to top button it will take to top of the page.
 
          * Explore Page     
 
-               When user click on the sub-section it will take to their sections.
+              When click on the sub-navigation the user move among related section within the same page.
 
          * Contact Page   
                
-              1. I tried to submit the form without filling in any input fields. The form worked correctly and directed users to fill in the first name field. I then filled in the first name field and tried to submit the form. Again the form worked correctly and directed the user to fill out the email address field. I filled out the first name, last name and email address forms and tried to submit the form. The form worked correctly and asked the user to fill in the message field. I filled out the first name, last name, email address and message field and tried to submit the form. The form then opens the thank you page in the same browser window.
+              1. I tried to submit the form without filling in any input fields. The form worked correctly and directed users to fill in the first name field. I then filled in the first name field and tried to submit the form. Again the form worked correctly and directed the user to fill out the last name field. The form worked correctly and directed the user to fill out the email address field. I filled out the first name, last name and email address and tried to submit the form. The form worked correctly and asked the user to fill in the message field. I filled out the first name, last name, email address and message field and tried to submit the form. The form then opens the thank you page in the same browser window.
 
               2. Hovering over the submit button will trigger hover effect, highlighting the button for the user.
 
@@ -396,7 +396,7 @@ The website is comprised of five pages, four of which are accessible from the na
       
        2. When the Contact HTML code is submitted to W3C HTML validator for testing, it produced an error. The testing programming flagged a [bad width on iframe](/assets/readme-files/testing/lighthouse/error.JPG) then I resolve the error by giving value to width and height through ID of iframe.
 
-       3. When the site was tested by Google Chrome Lighthouse tester. It flagged serve images in next gen format.Performance was only measuring at an average of 64%. Lighthouse suggest to [serve image formats](/assets/readme-files/testing/lighthouse/error-msg.JPG) like Webp and AVIF to improve compression and lead to faster download and less data consumption. I have now converted logo, slides images and all the other images in webp format using Birme.
+       3. When the site was tested by Google Chrome Lighthouse tester. It flagged serve images in next gen format. Performance was only measuring at an average of 64%. Lighthouse suggest to [serve image formats](/assets/readme-files/testing/lighthouse/error-msg.JPG) like Webp and AVIF to improve compression and lead to faster download and less data consumption. I have now converted logo, slides images and all the other images in webp format using Birme.
 
        4. The carousel displayed fine on small screen devices. however when viewed on larger devices you would need to scroll down to see the entire image, which led to a bad user experience. By using media queries I targeted the large screen size and targeted the carousel item image to only take up 90% of the viewport height. This solved the issue by allowing the user to view the image without having to scroll, but the image was now being stretched across the screen. I searched google and stack overflow and it mentioned using object fit and added object-fit: contain to the css which allows the image to correctly maintain its aspect ratio and view correctly.
 
