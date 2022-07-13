@@ -462,7 +462,11 @@ The website is comprised of five pages, four of which are accessible from the na
 
 
 * ## Acknowledgements  
+ 
+  Joe Jackson Ice Cream was created as my first portfolio project. I would like to thank my mentor Marcel for his heplful feedback and encouragement throughout the development process. I would also like to thank tutor of code institute for their support. I'd like to thank fellow Code Institute students in May 2022 class at code institute.
 
+
+  Dania Khanam
   
 
   
