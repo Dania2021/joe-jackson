@@ -35,11 +35,11 @@ Find the Project Repository [here](https://github.com/Dania2021/joe-jackson)
   * [Framework, Libraries & Programs Used](#framework-libraries--programs-used)
 
 * [Testing](#testing)
-  * Testing User Stories
-  * Code Validation
-  * Lighthouse  
-  * Tool Testing
-  * Manual Testing
+  * [Validator Tests](#validator-tests)
+  * [Lighthouse Tests](#lighthouse-tests)  
+  * [Tools Tests](#tools-test)
+  * [Manual Testing](#manual-testing)
+  * [Bugs](#bugs)
 
 * [Deployment](#deployment)
   * [Project Deploymant via GitHub Pages](#project-deloyment-via-github-pages)
@@ -206,7 +206,7 @@ The website is comprised of five pages, four of which are accessible from the na
 
      Github - Used to save and store the files for website.
 
-     [Bootstrap Version 5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - Sourced code from the Bootstrap documentation when building the Navbar, Carousel, Sections, Buttons and Contact Form were used and modified.
+     [Bootstrap Version 5.2.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - Sourced code from the Bootstrap documentation when building the Navbar, Carousel, Sections, Buttons and Contact Form were used and modified.
 
      Google Dev Tools - Used while building the project to test responsiveness and for debugging.
 
@@ -214,15 +214,196 @@ The website is comprised of five pages, four of which are accessible from the na
 
      [Favicon](https://favicon.io/)  To create favicon.
 
-     [Am I Responsive](https://ui.dev/amiresponsive?)  To show the website image on a range of devices.
+     [Am I Responsive?](https://ui.dev/amiresponsive?)  To show the website image on a range of devices.
 
 
 ## Testing 
 
-  * ### Testing User Stories
 
-     
+  * ### Validator Tests   
 
+    The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
+
+    * Index Page HTML
+
+    ![Screen shot of Index page Validator](/assets/readme-files/testing/w3c/index-img.png)
+
+    * Icecream Page HTML
+
+    ![Screen shot of Icecream page Validator](/assets/readme-files/testing/w3c/icecream-img.png)
+
+    * Explore Page HTML
+
+     ![Screen shot of Explore page Validator](/assets/readme-files/testing/w3c/explore-img.png)
+
+    * Contact Page HTML
+
+     ![Screen shot of Contact page Validator](/assets/readme-files/testing/w3c/contact-img.png)
+
+    * Thankyou Page HTML
+
+     ![Screen shot of Thankyou page Validator](/assets/readme-files/testing/w3c/thankyou-img.png)
+
+    * 404 Page HTML
+
+     ![Screen shot of 404 page Validator](/assets/readme-files/testing/w3c/404-img1.png)
+
+    * style.css CSS
+
+     ![Screen shot of  style.css Validator](/assets/readme-files/testing/w3c/css-img.png)
+
+
+  * ### Lighthouse Tests 
+
+     Joe Jackson Ice Cream was also tested through Chrome Dev Tools - Lighthouse. It was tested on four main areas - Performance, Accessibility, Best Practices and SEO.
+
+     Index Page
+
+      * Lighthouse testing for desktop Index Page
+
+      ![Screen shot of  desktop Index page lighthouse test](/assets/readme-files/testing/lighthouse/index-desktop.png)
+
+      * Lighthouse testing for mobile Index Page
+
+      ![Screen shot of  mobile Index page lighthouse test](/assets/readme-files/testing/lighthouse/index-mobile.png)
+
+     Icecream Page
+
+      * Lighthouse testing for desktop Icecream Page
+
+      ![Screen shot of  desktop Icecream page lighthouse test](/assets/readme-files/testing/lighthouse/icecream-desktop.png)
+
+      * Lighthouse testing for mobile Icecream Page
+
+      ![Screen shot of  mobile Icecream page lighthouse test](/assets/readme-files/testing/lighthouse/ice-cream-mobile.JPG)
+
+
+     Explore Page
+
+      * Lighthouse testing for desktop Explore Page
+
+      ![Screen shot of  desktop Explore page lighthouse test](/assets/readme-files/testing/lighthouse/explore-desktop.png)
+
+      * Lighthouse testing for mobile Explore Page
+
+      ![Screen shot of  mobile Explore page lighthouse test](/assets/readme-files/testing/lighthouse/explore-light-house-mobile.JPG)
+
+     Contact Page
+
+      * Lighthouse testing for desktop Contact Page
+
+      ![Screen shot of  desktop Contact page lighthouse test](/assets/readme-files/testing/lighthouse/contact-desktop.png)
+
+      * Lighthouse testing for mobile Contact Page
+
+      ![Screen shot of  mobile Contact page lighthouse test](/assets/readme-files/testing/lighthouse/contact-mobile.png)
+
+     Thankyou Page
+
+      * Lighthouse testing for desktop Thankyou Page
+
+      ![Screen shot of  desktop Thankyou page lighthouse test](/assets/readme-files/testing/lighthouse/thankyou-desktop.png)
+
+      * Lighthouse testing for mobile Thankyou Page
+
+      ![Screen shot of  mobile Thankyou page lighthouse test](/assets/readme-files/testing/lighthouse/thankyou-mobile.png)
+
+     404 Page
+
+      * Lighthouse testing for desktop 404 Page
+
+      ![Screen shot of  desktop 404 page lighthouse test](/assets/readme-files/testing/lighthouse/404-desktop.png)
+
+      * Lighthouse testing for mobile 404 Page
+
+      ![Screen shot of  mobile 404 page lighthouse test](/assets/readme-files/testing/lighthouse/404-img.png)
+
+  * ### Tools Test
+
+      * Chrome DevTools
+
+        Chrome DevTools was used during the development process to test, explore and modify HTML elements and CSS styles used in the project.
+
+      * Responsiveness
+
+        [Am I Responsive?](https://ui.dev/amiresponsive?) was used to check responsiveness of the site pages across different devices.
+        
+  * ### Manual Testing 
+
+      * Browser Compatibility
+        
+         I performed the following testing using a number of browsers (google chrome, safari, mozilla firefox). There were no visible errors in appearance or functionality
+
+      * Devices Compatibility
+
+         I performed the following testing using a number of devices (Samsung Galaxy S8, iPhone 7, Hp Pro 15 inch )
+            
+
+      * Common Elements Testing
+
+         * All Pages
+
+           1. Header
+
+              Clicking on the main logo will bring the user back to the landing page.
+
+           2. Navigation Bar
+              
+              * Hovering on the different navigation bar's links will trigger hover effect, highlighting the link for the user with an underline.
+
+              * Clicking on the navigation bar's links will bring the user to the specified page.
+
+           3. Footer
+
+              Clicking on the social media links leading to external pages opened correctly in a seperate browser tab.    
+
+         * Index Page
+
+               1. On the index page there is a section titled 'Scoop Range' with a button that the user can click to take them to the Icecream page.
+
+               2. On the index page there is a section titled 'Sundae Bar’ with a button users can click to take them to the Explore page. 
+
+               3. On the index page there is a section titled 'Contact Us’ with a button users can click to take them to the Contact page.
+               
+
+         * Icecream Page
+
+              1. When user click on the sub-section it will take to their sections.
+
+              2. When user click on bottom to top button it will take to top of the page.
+
+         * Explore Page     
+
+               When user click on the sub-section it will take to their sections.
+
+         * Contact Page   
+               
+              1. I tried to submit the form without filling in any input fields. The form worked correctly and directed users to fill in the first name field. I then filled in the first name field and tried to submit the form. Again the form worked correctly and directed the user to fill out the email address field. I filled out the first name, last name and email address forms and tried to submit the form. The form worked correctly and asked the user to fill in the message field. I filled out the first name, last name, email address and message field and tried to submit the form. The form then opens the thank you page in the same browser window.
+
+              2. Hovering over the submit button will trigger hover effect, highlighting the button for the user.
+
+         * 404 Page
+
+              1. Entering an incorrect address into the address bar will bring the user back to the 404 error page.
+
+              2. Clicking on the logo or using the navbar will bring the user back to landing page.
+
+    * ### Bugs
+
+      * Resolved
+       
+       1. The navbar would lose its alignment when on smaller devices, with the navbar brand pushing the logo and text down. This did not make for a good user experience. While searching through the bootstrap documentation for navigation bars it directed me to display properties and hiding elements. Once I added the correct class I was then able to hide the text beside logo on devices smaller than a tablet, allowing the alignment of the navbar items to stay in place where I wanted them.
+      
+       2. When the Contact HTML code is submitted to W3C HTML validator for testing, it produced an error. The testing programming flagged a [bad width on iframe](/assets/readme-files/testing/lighthouse/error.JPG) then I resolve the error by giving value to width and height through ID of iframe.
+
+       3. When the site was tested by Google Chrome Lighthouse tester. It flagged serve images in next gen format.Performance was only measuring at an average of 64%. Lighthouse suggest to [serve image formats](/assets/readme-files/testing/lighthouse/error-msg.JPG) like Webp and AVIF to improve compression and lead to faster download and less data consumption. I have now converted logo, slides images and all the other images in webp format using Birme.
+
+       4. The carousel displayed fine on small screen devices. however when viewed on larger devices you would need to scroll down to see the entire image, which led to a bad user experience. By using media queries I targeted the large screen size and targeted the carousel item image to only take up 90% of the viewport height. This solved the issue by allowing the user to view the image without having to scroll, but the image was now being stretched across the screen. I searched google and stack overflow and it mentioned using object fit and added object-fit: contain to the css which allows the image to correctly maintain its aspect ratio and view correctly.
+
+      * Unresolved
+    
+      Using just HTML and CSS to create a website has its shortcomings. Unfortunately without knowledge of other languages, contact form on Joe Jacksons Ice Cream have no functionality. Although it seem to accept data but it doesnot send the data to any back-end database. This can be resolved with the knowledge of the back-end languages.
+        
 
 ## Deployment
 
@@ -261,9 +442,9 @@ The website is comprised of five pages, four of which are accessible from the na
 
   ### Code
 
-  * [Bootstrap 5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/): Bootstrap library was used throughout the project mainly to make it responsive. I sourced code from the Bootstrap documentation when building the Navbar, Carousel, Sections, Buttons and Contact Form.
+  * [Bootstrap 5.2.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/) : Bootstrap library was used throughout the project mainly to make it responsive. I have used and modified code from the Bootstrap documentation when building the Navbar, Carousel, Sections, Buttons and Contact Form.
 
-  * [Code Institute](https://codeinstitute.net/ie/): I referred to source code from Code Institute's Web Application Development course. I referred to the Coders Coffee House Project code for the google maps iframe.
+  * [Code Institute](https://codeinstitute.net/ie/) : I referred to source code from Code Institute's Web Application Development course. I referred to the Coders Coffee House Project code for the google maps iframe.
 
   ### Content
    
