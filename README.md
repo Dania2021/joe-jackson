@@ -157,6 +157,9 @@ The website is comprised of five pages, four of which are accessible from the na
     * Back to top button appears at the bottom of the Icecream and Explore page and saves the user needing to scroll back up to the top of page. The button features an 'up' arrow, to make it clear that it will quickly send users back to the top of the page.
 
 
+    ![Screen shot of back to top button](/assets/readme-files/back-to-top.png)
+
+
 * ### Explore Page
 
    This page provides information about Sundae Bar, Millkshake Bar And Chocolate Bar Shake. The section uses the same reusable CSS classes from the previous pages to make the information styling consistent with previous pages, but size of images are different from the previous page.   
@@ -182,7 +185,8 @@ The website is comprised of five pages, four of which are accessible from the na
 
 
 * ### 404 Page 
-
+ 
+  I created 404 page in my repository by [GitHub Documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site). The 404 page features a message  to help the user navigate back to the hompage if they enter an incorrect URL and this page also have an image.
 
      ![Screen shot of 404 page](/assets/readme-files/404-img.png)
 
