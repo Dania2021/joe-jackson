@@ -286,20 +286,6 @@ padding-right: 15px;
     font-weight: 200;
 }
 
-/*Style Back to top anchor*/
-#back-to-top {
-    background-color: #2E1503;
-    color: #fff;
-    text-decoration: none;
-    font-size: 120%;
-    padding: 6px;
-}
-
-#back-to-top:hover {
-    background-color: #fff;
-    color: #2E1503;
-}
-
 /*Style contact page*/
 /*table*/
 
