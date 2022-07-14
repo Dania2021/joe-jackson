@@ -236,12 +236,13 @@ footer > p {
         width: 100%;
         position: absolute;
         bottom: 20px;
-        padding-right: 60px;
+        padding-right: 80px;
     }
     .copyright {
         width: 100%;
         text-align: center;
-        margin: 100px 0;
+        margin: 95px 0;
+        padding-right: 25px;
     }
 }
 
