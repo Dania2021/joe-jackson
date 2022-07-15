@@ -9,7 +9,7 @@
 body {
     font-family: Nota Serif, sans-serif;
     color:  #65350F;
-    background-color:  rgb(255, 253, 208);
+    background-color:  #FFFDD0;
     text-align: center;
 }
 
@@ -18,7 +18,7 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-margin-left: 30px;
+    margin-left: 30px;
 }
 
 /* Headings*/
@@ -29,7 +29,6 @@ h1, h2, h3 {
 }
 
 /* Navigation Links */
-
 .navbar-nav {
     font-size: 110%;
     font-weight: 300;
@@ -42,21 +41,22 @@ h1, h2, h3 {
     font-family: Montserrat, sans-serif;
     font-weight: 600;
     font-size:  200%;
-     color:  #2E1503;    
-     padding-top: 6px;
+    color:  #2E1503;    
+    padding-top: 6px;
     
 }
 
 .navbar-band:hover {
     color: #2E1503;
 }
+
 .navbar-nav, .nav-link, .navbar-light {
     color: #2E1503;    
 }
 
 .nav-link:hover {
-border-bottom: 1px solid #fff;
-color: #fff;
+border-bottom: 1px solid #FFFDD0;
+color: #FFFDD0;
 }
 
 .nav-item {
@@ -69,15 +69,7 @@ color: #fff;
 
 .navbar {
     background-color:  rgba(240, 112, 112);
-width: 100%;
-}
-
-/* Styling images*/
-img {
-    vertical-align: middle;
-}
-.img-container {
-    margin: 30px;
+    width: 100%;
 }
 
 /*Style hero title*/
@@ -90,9 +82,9 @@ img {
 
 /*Style Carousel*/
 @media only screen and (min-width: 1024px) {
-        .carousel-item img {
-          height: 90vh;
-          object-fit: contain;
+ .carousel-item img {
+    height: 90vh;
+    object-fit: contain;
         }
     }
 /*Styling Column images on index, icecream and explore page */
@@ -111,11 +103,13 @@ max-height: 100%;
 .column-image .caption {
     padding-top: 16px;
 }
+
 /*styling row*/
 .row {
 padding-top: 30px;
 padding-bottom: 30px;
 }
+
 /* Button style*/
 .btn-dark i {
     padding: 0 4px 0 4px;
@@ -124,11 +118,11 @@ padding-bottom: 30px;
 .btn-dark {
     font-size: medium;
     background-color: #2E1503;
-    color: #fff;
+    color: #FFFDD0;
 }
 
 .btn-dark:hover {
-    background-color: #fff;
+    background-color: #FFFDD0;
     color: #2E1503;
 }
 
@@ -155,8 +149,7 @@ padding-bottom: 30px;
     padding-left: 16px;
     padding-right: 16px;
    margin-right: auto;
-   margin-left: auto;; 
-    
+   margin-left: auto;;     
 }
 
 /*To set images of same size*/
@@ -167,7 +160,6 @@ padding-bottom: 30px;
 }
 
 /*footer*/
-
 footer {
     overflow: hidden;
     position: relative;
@@ -213,7 +205,7 @@ footer > p {
 }
 
 .social-icons li a i:hover {
-    color: #fff;
+    color: #FFFDD0;
 }
 
 .copyright {
@@ -224,22 +216,21 @@ footer > p {
 }
 
 /*Style small screen sizes from 425px wide and down*/
-
 @media screen and (max-width: 445px) {
-    .footer-logo {
+  .footer-logo {
         width: 100%;
         text-align: center;
         margin: 50px 0;
         display: block;
     }
-    .social-icons {
+  .social-icons {
         text-align: center;
         width: 100%;
         position: absolute;
         bottom: 20px;
         padding-right: 80px;
     }
-    .copyright {
+  .copyright {
         width: 100%;
         text-align: center;
         margin: 95px 0;
@@ -247,10 +238,8 @@ footer > p {
     }
 }
 
-
 /* Icecream Page*/
 /*Style Heading and sub-navigation*/
-
 .nav-menu a {
 text-decoration: none;
 color: #65350F;
@@ -290,7 +279,6 @@ padding-right: 15px;
 
 /*Style contact page*/
 /*table*/
-
 th, td {
     border-bottom: 1px solid #2E1503;
 }
@@ -315,7 +303,6 @@ th, td {
 
 /*Explore Page*/
 /*Large image in sundae bar, milkshake bar and chocolate bar shake*/
-
 .set-width-img {
     width: 500px;
     height: 500px;
