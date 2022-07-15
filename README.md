@@ -182,6 +182,7 @@ The website is comprised of five pages, four of which are accessible from the na
 
    This page provides information about opening times, address, get in touch and a map. This page also provides Newsletter that have a sign up form to submit.Tha map section is originally sourced from Coders Coffee House Project.
 
+    ![Screen shot of Contact Page with Opening Times, Address and Get In Touch](/assets/readme-files/address-img.png "Contact Page with Opening Times, Address And Get In Touch")
 
     ![Screen shot of Contact Page with Sign up form](/assets/readme-files/contact-img.png "Contact Page with Sign up form")
 
