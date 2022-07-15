@@ -1,15 +1,13 @@
 # Joe Jacksons Ice Cream Website
 ![Screen shot of Joe Jacksons Ice Cream Website](/assets/readme-files/joe-jackson-img.JPG "Joe Jacksons Ice Cream Website")
-Joe Jacksons Ice cream is located in Letterkenny, co Donegal. Joe Jackson Ice Cream is designed to view variety of homemade gelato ice cream flavours, ice cream cakes, sundae and milkshakes. They make their ice cream in small batches and have variety of flavours. 
+Joe Jacksons Ice cream is located in Letterkenny, Co Donegal. Joe Jackson Ice Cream is designed to view variety of homemade gelato ice cream flavours, ice cream cakes, sundae and milkshakes. They make their ice cream in small batches and have variety of flavours. 
 
 The website is designed to be responsive so that it is user-friendly and looks appealing on any device.
 
 Visit the live project [here](https://dania2021.github.io/joe-jackson/)
 
-Find the Project Repository [here](https://github.com/Dania2021/joe-jackson)
-
 ## Table of Contents
-* [User Experience](#user-experience)
+* [User Experience](#user-experience-ux)
   * [Project Goals](#project-goals) 
   * [User Stories](#user-stories)
 
@@ -98,13 +96,25 @@ I used icons from Font Awesome to encourage users to click on buttons and to add
 
 Wireframes were created for desktop, tablet and mobile.
 
-[Home page Wireframe](/assets/readme-files/wireframes/wireframe-home.png)
+* Home page Wireframe
 
-[Ice Cream Wireframe](/assets/readme-files/wireframes/wireframe-icecream.png)
+![home page Wireframe](/assets/readme-files/wireframes/wireframe-home.png "home page Wireframe")
 
-[Explore Wireframe](/assets/readme-files/wireframes/wireframe-explore.png)
 
-[Contact Wireframe](/assets/readme-files/wireframes/wireframe-contact.png)
+* Icecream page Wireframe
+
+![Icecream page Wireframe](/assets/readme-files/wireframes/wireframe-icecream.png "Icecream page Wireframe")
+
+
+* Explore page Wireframe
+
+![Explore page Wireframe](/assets/readme-files/wireframes/wireframe-explore.png "Explore page Wireframe")
+
+
+* Contact page Wireframe
+
+![Contact page Wireframe](/assets/readme-files/wireframes/wireframe-contact.png "Contact page Wireframe")
+
 
 ## Features
 
@@ -115,18 +125,18 @@ The website is comprised of five pages, four of which are accessible from the na
 
   * A responsive navigation bar at the top which allows the user to navigate through the site. To the left of the navigation bar is an image of joe jacksons logo together with the text Joe Jacksons Ice Cream. To the right of the navigation bar are the links to the websites pages (home, icecream, explore and contact). To allow a good user experience of the site, Joe Jacksons Ice Cream text is hidden with a media query on mobile devices to prevent the navigation bar looking cluttered. When viewing with mobile devices the navigation links change to a burger toggler. This was implemented to give the site a clean look and to promote a good user experience, as users are used to seeing the burger icon when on mobile devices to navigate a site.
 
-  ![Screen shot of navbar](/assets/readme-files/navbar-img.JPG)
+  ![Screen shot of Navigation Bar](/assets/readme-files/navbar-img.JPG "Navigation Bar")
 
  
   * A footer which contains address of Joe Jackson Ice cream, social media icon links to facebook and instagram. Social media links open to new page and icons were used to keep the footer clean and because they are universally recognisable.
   
-  ![Screen shot of footer](/assets/readme-files/footer-img.JPG)
+  ![Screen shot of Footer](/assets/readme-files/footer-img.JPG "Footer")
 
 * ### Home Page
 
     * Carousel Section: The carousel shows images of ice cream.
 
-     ![Screen shot of carousel](/assets/readme-files/carousel-img.png)
+     ![Screen shot of Carousel](/assets/readme-files/carousel-img.png "Carousel")
 
     * Scoop Range Section: This section feature button with 'call to actions' that quickly directing user to relevant information on ice cream page.
 
@@ -134,7 +144,7 @@ The website is comprised of five pages, four of which are accessible from the na
 
     * Contact Section: This section feature  button with 'call to actions' that quickly directing user to relevant information on contact page.
 
-      ![Screen shot of carousel](/assets/readme-files/section-img.png)
+      ![Screen shot of Scoop Range, Sundae Bar and Contact Section](/assets/readme-files/section-img.png "Scoop Range, Sundae Bar and Contact Section")
 
       Buttons are consistent in design across the site. Buttons feature a right arrow to encourage them to click and be taken to a new page. Buttons change colour when hovered over. The button text is legible both in its normal and hover state. I have used Bootstrap Button classes, which I have customised in the CSS.
 
@@ -145,19 +155,19 @@ The website is comprised of five pages, four of which are accessible from the na
     * The first section of Icecream page is scoop section. This section is comprised of listing of scoop and splits into eighteen different variety of scoop. The section uses the same reusable CSS classes from the previous pages to make the information styling consistent with previous pages.   
 
 
-    ![Screen shot of Icecream Page with heading, sub-navigation and scoop](/assets/readme-files/icecream-img.png)
+    ![Screen shot of Icecream Page with heading, sub-navigation and scoop section](/assets/readme-files/icecream-img.png "Icecream Page with heading, sub-navigation and scoop section")
 
 
     * The next section is Icecream Cakes, features information about icecream cakes. This section is comprised of listing of cakes and describes two types of icecream cakes.
 
 
-    ![Screen shot of Icecream Page with Ice cream cake](/assets/readme-files/icecream-cake-img.png)
+    ![Screen shot of Icecream Page with Ice cream cake section](/assets/readme-files/icecream-cake-img.png "Icecream Page with Ice cream cake section")
 
   
     * Back to top button appears at the bottom of the Icecream and Explore page and saves the user needing to scroll back up to the top of page. The button features an 'up' arrow, to make it clear that it will quickly send users back to the top of the page.
 
 
-    ![Screen shot of back to top button](/assets/readme-files/back-to-top.png)
+    ![Screen shot of back to top button](/assets/readme-files/back-to-top.png "back to top button")
 
 
 * ### Explore Page
@@ -165,7 +175,7 @@ The website is comprised of five pages, four of which are accessible from the na
    This page provides information about Sundae Bar, Millkshake Bar And Chocolate Bar Shake. The section uses the same reusable CSS classes from the previous pages to make the information styling consistent with previous pages, but size of images are different from the previous page.   
 
 
-    ![Screen shot of Explore Page with Sundae Bar](/assets/readme-files/explore-img.png)
+    ![Screen shot of Explore Page with Sundae Bar Section](/assets/readme-files/explore-img.png "Explore Page with Sundae Bar Section")
 
 
 * ### Contact Page
@@ -173,7 +183,7 @@ The website is comprised of five pages, four of which are accessible from the na
    This page provides information about opening times, address, get in touch and a map. This page also provides Newsletter that have a sign up form to submit.Tha map section is originally sourced from Coders Coffee House Project.
 
 
-    ![Screen shot of Contact Page with Sign up form](/assets/readme-files/contact-img.png)
+    ![Screen shot of Contact Page with Sign up form](/assets/readme-files/contact-img.png "Contact Page with Sign up form")
 
 
 * ### Thankyou Page
@@ -181,14 +191,14 @@ The website is comprised of five pages, four of which are accessible from the na
   An image and message thanks the user for submitting the form and lets them know someone will be in touch soon.
 
 
-    ![Screen shot of Thankyou Page](/assets/readme-files/thankyou-img.png)
+    ![Screen shot of Thankyou Page](/assets/readme-files/thankyou-img.png "Thankyou Page")
 
 
 * ### 404 Page 
  
   I created 404 page in my repository by [GitHub Documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site). The 404 page features a message  to help the user navigate back to the hompage if they enter an incorrect URL and this page also have an image.
 
-     ![Screen shot of 404 page](/assets/readme-files/404-img.png)
+     ![Screen shot of 404 page](/assets/readme-files/404-img.png "404 Page")
 
 
 
@@ -230,31 +240,31 @@ The website is comprised of five pages, four of which are accessible from the na
 
     * Index Page HTML
 
-    ![Screen shot of Index page Validator](/assets/readme-files/testing/w3c/index-img.png)
+    ![Screen shot of Index page Validator](/assets/readme-files/testing/w3c/index-img.png "Index Page Validator")
 
     * Icecream Page HTML
 
-    ![Screen shot of Icecream page Validator](/assets/readme-files/testing/w3c/icecream-img.png)
+    ![Screen shot of Icecream page Validator](/assets/readme-files/testing/w3c/icecream-img.png "Icecream page Validator")
 
     * Explore Page HTML
 
-     ![Screen shot of Explore page Validator](/assets/readme-files/testing/w3c/explore-img.png)
+     ![Screen shot of Explore page Validator](/assets/readme-files/testing/w3c/explore-img.png "Exlpore page Validator")
 
     * Contact Page HTML
 
-     ![Screen shot of Contact page Validator](/assets/readme-files/testing/w3c/contact-img.png)
+     ![Screen shot of Contact page Validator](/assets/readme-files/testing/w3c/contact-img.png "Contact Page Validator")
 
     * Thankyou Page HTML
 
-     ![Screen shot of Thankyou page Validator](/assets/readme-files/testing/w3c/thankyou-img.png)
+     ![Screen shot of Thankyou page Validator](/assets/readme-files/testing/w3c/thankyou-img.png "Thankyou Page Validator")
 
     * 404 Page HTML
 
-     ![Screen shot of 404 page Validator](/assets/readme-files/testing/w3c/404-img1.png)
+     ![Screen shot of 404 page Validator](/assets/readme-files/testing/w3c/404-img1.png "404 Page Validator")
 
     * style.css CSS
 
-     ![Screen shot of  style.css Validator](/assets/readme-files/testing/w3c/css-img.png)
+     ![Screen shot of  style.css Validator](/assets/readme-files/testing/w3c/css-img.png "style.css Validator")
 
 
   * ### Lighthouse Tests 
@@ -265,62 +275,62 @@ The website is comprised of five pages, four of which are accessible from the na
 
       * Lighthouse testing for desktop Index Page
 
-      ![Screen shot of  desktop Index page lighthouse test](/assets/readme-files/testing/lighthouse/index-desktop.png)
+      ![Screen shot of  desktop Index page lighthouse test](/assets/readme-files/testing/lighthouse/index-desktop.png "Desktop Index Page Lighthouse Test")
 
       * Lighthouse testing for mobile Index Page
 
-      ![Screen shot of  mobile Index page lighthouse test](/assets/readme-files/testing/lighthouse/index-mobile.png)
+      ![Screen shot of  mobile Index page lighthouse test](/assets/readme-files/testing/lighthouse/index-mobile.png "Mobile Index Page Lighthouse Test")
 
      Icecream Page
 
       * Lighthouse testing for desktop Icecream Page
 
-      ![Screen shot of  desktop Icecream page lighthouse test](/assets/readme-files/testing/lighthouse/icecream-desktop.png)
+      ![Screen shot of  desktop Icecream page lighthouse test](/assets/readme-files/testing/lighthouse/icecream-desktop.png "Desktop Icecream Page Lighthouse Test")
 
       * Lighthouse testing for mobile Icecream Page
 
-      ![Screen shot of  mobile Icecream page lighthouse test](/assets/readme-files/testing/lighthouse/ice-cream-mobile.JPG)
+      ![Screen shot of  mobile Icecream page lighthouse test](/assets/readme-files/testing/lighthouse/ice-cream-mobile.JPG "Mobile Icecream Page Lighthouse Test")
 
 
      Explore Page
 
       * Lighthouse testing for desktop Explore Page
 
-      ![Screen shot of  desktop Explore page lighthouse test](/assets/readme-files/testing/lighthouse/explore-desktop.png)
+      ![Screen shot of  desktop Explore page lighthouse test](/assets/readme-files/testing/lighthouse/explore-desktop.png "Desktop Explore Page Lighthouse Test")
 
       * Lighthouse testing for mobile Explore Page
 
-      ![Screen shot of  mobile Explore page lighthouse test](/assets/readme-files/testing/lighthouse/explore-light-house-mobile.JPG)
+      ![Screen shot of  mobile Explore page lighthouse test](/assets/readme-files/testing/lighthouse/explore-light-house-mobile.JPG "Mobile Explore Page Lighthouse Test")
 
      Contact Page
 
       * Lighthouse testing for desktop Contact Page
 
-      ![Screen shot of  desktop Contact page lighthouse test](/assets/readme-files/testing/lighthouse/contact-desktop.png)
+      ![Screen shot of  desktop Contact page lighthouse test](/assets/readme-files/testing/lighthouse/contact-desktop.png "Desktop Contact Page Lighthouse Test")
 
       * Lighthouse testing for mobile Contact Page
 
-      ![Screen shot of  mobile Contact page lighthouse test](/assets/readme-files/testing/lighthouse/contact-mobile.png)
+      ![Screen shot of  mobile Contact page lighthouse test](/assets/readme-files/testing/lighthouse/contact-mobile.png "Mobile Contact Page Lighthouse Test")
 
      Thankyou Page
 
       * Lighthouse testing for desktop Thankyou Page
 
-      ![Screen shot of  desktop Thankyou page lighthouse test](/assets/readme-files/testing/lighthouse/thankyou-desktop.png)
+      ![Screen shot of  desktop Thankyou page lighthouse test](/assets/readme-files/testing/lighthouse/thankyou-desktop.png "Desktop Thankyou Page Lighthouse Test")
 
       * Lighthouse testing for mobile Thankyou Page
 
-      ![Screen shot of  mobile Thankyou page lighthouse test](/assets/readme-files/testing/lighthouse/thankyou-mobile.png)
+      ![Screen shot of  mobile Thankyou page lighthouse test](/assets/readme-files/testing/lighthouse/thankyou-mobile.png "Mobile Thankyou Page Lighthouse Test")
 
      404 Page
 
       * Lighthouse testing for desktop 404 Page
 
-      ![Screen shot of  desktop 404 page lighthouse test](/assets/readme-files/testing/lighthouse/404-desktop.png)
+      ![Screen shot of  desktop 404 page lighthouse test](/assets/readme-files/testing/lighthouse/404-desktop.png "Desktop 404 Page Lighthouse Test")
 
       * Lighthouse testing for mobile 404 Page
 
-      ![Screen shot of  mobile 404 page lighthouse test](/assets/readme-files/testing/lighthouse/404-img.png)
+      ![Screen shot of  mobile 404 page lighthouse test](/assets/readme-files/testing/lighthouse/404-img.png "Mobile 404 Page Lighthouse Test")
 
   * ### Tools Test
 
@@ -340,7 +350,7 @@ The website is comprised of five pages, four of which are accessible from the na
 
       * Devices Compatibility
 
-         I performed the following testing using a number of devices (Samsung Galaxy S8, iPhone 7, Hp Pro 15 inch)
+         I performed the following testing using a number of devices (Samsung Galaxy S8, iPhone 7, HP 15 Notebook, Lenevo Think Pad)
             
 
       * Common Elements Testing
@@ -398,15 +408,15 @@ The website is comprised of five pages, four of which are accessible from the na
        
        1. The navbar would lose its alignment when on smaller devices, with the navbar brand pushing the logo and text down. This did not make for a good user experience. While searching through the bootstrap documentation for navigation bars it directed me to display properties and hiding elements. Once I added the correct class I was then able to hide the text beside logo on devices smaller than a tablet, allowing the alignment of the navbar items to stay in place where I wanted them.
       
-       2. When the Contact HTML code is submitted to W3C HTML validator for testing, it produced an error. The testing programming flagged a [bad width on iframe](/assets/readme-files/testing/lighthouse/error.JPG) then I resolve the error by giving value to width and height through ID of iframe.
+       2. When the Contact HTML code is submitted to W3C HTML validator for testing, it produced an error. The testing programming flagged a [bad width on iframe](/assets/readme-files/testing/lighthouse/error.JPG "bad width on iframe") then I resolve the error by giving value to width and height through ID of iframe.
 
-       3. When the site was tested by Google Chrome Lighthouse tester. It flagged serve images in next gen format. Performance was only measuring at an average of 64%. Lighthouse suggest to [serve image formats](/assets/readme-files/testing/lighthouse/error-msg.JPG) like Webp and AVIF to improve compression and lead to faster download and less data consumption. I have now converted logo, slides images and all the other images in webp format using Birme.
+       3. When the site was tested by Google Chrome Lighthouse tester. It flagged serve images in next gen format. Performance was only measuring at an average of 64%. Lighthouse suggest to [serve image formats](/assets/readme-files/testing/lighthouse/error-msg.JPG "serve image formats") like Webp and AVIF to improve compression and lead to faster download and less data consumption. I have now converted logo, slides images and all the other images in webp format using Birme.
 
        4. The carousel displayed fine on small screen devices. however when viewed on larger devices you would need to scroll down to see the entire image, which led to a bad user experience. By using media queries I targeted the large screen size and targeted the carousel item image to only take up 90% of the viewport height. This solved the issue by allowing the user to view the image without having to scroll, but the image was now being stretched across the screen. I searched google and stack overflow and it mentioned using object fit and added object-fit: contain to the css which allows the image to correctly maintain its aspect ratio and view correctly.
 
       * Unresolved
     
-      Using just HTML and CSS to create a website has its shortcomings. Unfortunately without knowledge of other languages, contact form on Joe Jacksons Ice Cream have no functionality. Although it seem to accept data but it doesnot send the data to any back-end database. This can be resolved with the knowledge of the back-end languages.
+      Using HTML and CSS to create a website has its shortcomings. Unfortunately without knowledge and use of other languages, Sign up form on Joe Jacksons Ice Cream have no functionality. Although it seem to accept data but it doesnot send the data to any back-end database. This can be resolved with the knowledge of the back-end languages.
         
 
 ## Deployment
@@ -463,7 +473,7 @@ The website is comprised of five pages, four of which are accessible from the na
 
 * ## Acknowledgements  
  
-  Joe Jackson Ice Cream was created as my first portfolio project. I would like to thank my mentor Marcel for his heplful feedback and encouragement throughout the development process. I would also like to thank tutor of code institute for their support. I'd like to thank fellow Code Institute students in May 2022 class at code institute.
+  Joe Jackson Ice Cream was created as my first portfolio project. I would like to thank my mentor Marcel Mulders for his heplful feedback and encouragement throughout the development process. I would also like to thank tutor of code institute for their support. I'd like to thank fellow Code Institute students in May 2022 class at code institute.
 
 
   Dania Khanam
